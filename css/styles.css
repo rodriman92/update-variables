@@ -1,0 +1,65 @@
+:root{
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+
+img{
+    padding: var(--spacing);
+    background-color: var(--base);
+    max-width:80%;
+    height: fit-content;
+    filter: blur(var(--blur));
+    margin-bottom: 3rem;
+}
+
+.h1{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+    
+}
+
+body{
+    background: #193549;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+}
+
+.controls{
+    margin-bottom: 2rem;
+}
+
+#changeImage{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: fit-content;
+    background-color: var(--base);
+    color: white;
+}
+
+.footer{
+    margin-top: 3rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3rem;
+    background-color: var(--base);
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
